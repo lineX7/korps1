@@ -7,19 +7,19 @@ from datetime import datetime
 import time,random,sys,json,codecs,threading,glob
 
 cl = LineAlpha.LINE()
-cl.login(token='EjyYmPwmzwJPxJrPW3w7.Kwe7JXLqqgC6EkUrrw6hXW.68WG4+wRWvPOChw5x2oNCUSMSRSykCcjxqMmsj9mfVs=')
+cl.login(token="")
 cl.loginResult()
 
 ki = LineAlpha.LINE()
-ki.login(token='EjxnRhx3D36seempwtg3.dFgZFFotzrndijGXDvw0qW.3J8DPzjQWKMGsmOndOty936ewUtziDa24aIrziiNHqU=')
+ki.login(token="")
 ki.loginResult()
 
 kk = LineAlpha.LINE()
-kk.login(token='Ej2IO8cXiKCU5P70Nz50.PPmhdixRMJfA3SkvCSs20a.yhTFO8ZUCthUZGXZ/bboo2+0fVxVJKvWdiixw5R5PBU=')
+kk.login(token="")
 kk.loginResult()
 
 kc = LineAlpha.LINE()
-kc.login(token='EjOrj1p4tzpXyoah4kc7.yNe49F9mOXCFquqqevrbnW.pzNSNRkbTCXJP6GydvobA6dt5YXUj1ClE4Uajr9DEnI=')
+kc.login(token="")
 kc.loginResult()
 
 print u"login success"
